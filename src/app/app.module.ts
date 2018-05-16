@@ -1,20 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ProveedoresService } from 'app/servicios/proveedores.service';
+import { PedidosService } from 'app/servicios/pedidos.service';
 
 import { AppComponent } from './app.component';
-import { ProveedoresComponent } from './proveedores/proveedores.component';
+import { PedidosComponent } from './pedidos/pedidos.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProveedoresComponent
+    PedidosComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [ProveedoresService],
+  providers: [PedidosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
